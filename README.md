@@ -97,8 +97,8 @@ Test Listener
 
 Test Case:
 
-- [`Test Cases/verify-slideshow-example`](Scripts/verify-slideshow-example/Scirpt1539662348280.groovy) --- I have written as many comments as I could. Please read the source.
-- [`Test Cases/main/verifySlideshow`](Scripts/main/verifySlideshow/Script1539664567499.groovy)
+- [`Test Cases/verify-slideshow-example`](Scripts/verify-slideshow-example/Scirpt1539674312799.groovy) --- I have written as many comments as I could. Please read the source.
+- [`Test Cases/main/verifySlideshow`](Scripts/main/verifySlideshow/Script1539674312799.groovy)
 
 ## Step by step instruction to recreate your slide show test
 
