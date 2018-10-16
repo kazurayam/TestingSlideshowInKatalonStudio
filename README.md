@@ -46,20 +46,24 @@ The demo will open [Mandelbrot Explorer](https://www.mandel.org.uk/) and verify 
 
 ### Output
 
+#### Output from `verify-slideshow-example`
+
 Running the `Test Cases/vefiry-slideshow-example` will result a new folder under the project directory: `./tmp/slideshow`.
 ![tmp/slideshow folder](docs/images/screenshots_in_tmp_slideshow.png)
 
-In the folder you will find 4 screenshots of the original images.
-- [`Mandelbrot Explorer_0.png`](docs/images/slideshow/Mandelbrot Explorer_0.png)
-- [`Mandelbrot Explorer_1.png`](docs/images/slideshow/Mandelbrot Explorer_1.png)
-- [`Mandelbrot Explorer_2.png`](docs/images/slideshow/Mandelbrot Explorer_2.png)
-- [`Mandelbrot Explorer_3.png`](docs/images/slideshow/Mandelbrot Explorer_3.png)
+In the folder you will find 4 screenshots of the original images. These are taken with 6 seconds of interval.
+- ![`Mandelbrot Explorer_0.png`](docs/images/slideshow/Mandelbrot Explorer_0.png)
+- ![`Mandelbrot Explorer_1.png`](docs/images/slideshow/Mandelbrot Explorer_1.png)
+- ![`Mandelbrot Explorer_2.png`](docs/images/slideshow/Mandelbrot Explorer_2.png)
+- ![`Mandelbrot Explorer_3.png`](docs/images/slideshow/Mandelbrot Explorer_3.png)
 
 Also in the same folder you fill find 4 comparison result of the original images:
-- [img0 and img1 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_0x1%2875.34%29.png)
-- [img1 and img2 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_1x2%2899.80%29.png)
-- [img2 and img3 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_2x3%28100.00%29.png)
-- [img3 and img4 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_3x4%28100.00%29.png)
+- ![img0 and img1 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_0x1%2875.34%29.png)
+- ![img1 and img2 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_1x2%2899.80%29.png)
+- ![img2 and img3 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_2x3%28100.00%29.png)
+- ![img3 and img0 comparison](docs/images/slideshow/Mandelbrot Explorer_diff_3x0%28100.00%29.png)
+
+I set 70.0% as the criteria to determine a image difference is significant or not. And the 4 comparison results has differece of 75.34%, 99.80%, 100.00% and 100.00% --- these are greater than the criteria; 4 images are all different.
 
 ## Code description
 
