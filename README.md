@@ -28,7 +28,7 @@ I want to verify *if a slide show is in motion*. In other words,
 
 [aShot](https://github.com/yandex-qatools/ashot), WebDriver Screenshot utility, enables you to take a screenshot of a selected WebElement (e.g. `<div id="banner">`). Also aShot enables you to compare 2 images of the WebElement and let you know how much different they are. This Katalon Studio project uses aShot. It provides a set of Custom Keywords in Katalon Studio, which wrap the [aShot](https://github.com/yandex-qatools/ashot) API. Also the project provides an example Test Case which shows how to make use of the keywords.
 
-You have another related problem. If you run a test which takes screen shots, you would inevitably want to save images into files on your local disk. But how you mange the paths of generated files? My [Materials](https://github.com/kazurayam/Materials) project provides a smart solution for managing & resolving paths of image files.
+You will realize another problem. If you take screen shots, you would inevitably want to save images into files on your local disk. But how you manage the paths of generated files? It is a cumbersome problem. My [Materials](https://github.com/kazurayam/Materials) project provides a smart solution for managing & resolving paths of image files dynamically created by test cases on Katalon Studio.
 
 ## Demonstration
 
