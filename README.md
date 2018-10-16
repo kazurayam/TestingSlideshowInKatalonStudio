@@ -89,7 +89,7 @@ The image files are just the same as the files created by the test case `verify-
 Custom keywords:
 
 - [`com.kazurayam.ksbackyard.ScreenshotDriver](Keywords/com/kazurayam/ksbackyard/ScreenshotDriver.groovy)
-- [`com.kazurayam.ksbackyard.Assert`](Keywords/com/kazurayam/ksbackyard/Assert.groovy)
+- [`com.kazurayam.ksbackyard.Assert`](Test%20Listeners/TL.groovy)
 
 Test Listener
 
@@ -107,9 +107,9 @@ If you want to create a new Katalon Studio project which verifies a slideshow on
 1. create a new Katalon Studio for you
 2. import the jar file of aShot into the project. see the Katalon document [How to import external library into your automation project ](https://docs.katalon.com/katalon-studio/tutorials/import_java_library.html). The jar of aShot is [here](https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot/1.5.4). Or you can reuse the ashot-x.x.x.jar bundled in the demo project's  `./Drivers` folder.
 3. import the jar file of Materials. The jar file is donwloadable at [Releases](https://github.com/kazurayam/Materials/releases) page. Or you can reuse the Materials-x.x.x.jar bundled in the demo project's `./Drivers` folder.
-4. create `com.kazurayam.ksbackyard.Assert` and `com.kazurayam.ksbackyard.ScreenshotDriver`. Copy the Groovy source from the demo project into your replication. You do not have to modify the source of 2 keywords. ![Keywords](docs/images/Keywords.PNG)
-5. create `Test Listeners/TL`. Copy the Groovy source from the demo project into your replication. You do not have to modify the source.
-
+4. create [`com.kazurayam.ksbackyard.Assert`](Test%20Listeners/TL.groovy) and [`com.kazurayam.ksbackyard.ScreenshotDriver`](Keywords/com/kazurayam/ksbackyard/ScreenshotDriver.groovy). Copy the Groovy source from the demo project into your replication. You do not have to modify the source of 2 keywords. ![Keywords](docs/images/Keywords.PNG)
+5. create [`Test Listeners/TL`](Test%20Listeners/TL.groovy). Copy the Groovy source from the demo project into your replication. You do not have to modify the source.
+6. modify the `default` Profile to have 2 GlobalVarials: `MATERIAL_REPOSITORY` of type Null, `CURRENT_TESTCASE_ID` of type String.  ![GlobalVariables_default](docs/images/slideshow/GlobalVariables_default.PNG)
 
 
 
