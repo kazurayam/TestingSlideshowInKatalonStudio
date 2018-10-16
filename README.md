@@ -26,7 +26,7 @@ I want to verify *if a slide show is in motion*. In other words,
 
 ## Solution proposed
 
-[aShot](https://github.com/yandex-qatools/ashot), WebDriver Screenshot utility, enables you to take a screenshot of a selected WebElement (e.g. `<div id="banner">`). Also aShot enables you to compare 2 images and know how much different they are. This Katalon Studio project uses aShot. This project provides a set of Custom Keywords in Katalon Studio, which wrap the [aShot API](http://automationtesting.in/ashot/). Also the project provides an example Test Case which shows how to make use of the keywords.
+[aShot](https://github.com/yandex-qatools/ashot), WebDriver Screenshot utility, enables you to take a screenshot of a selected WebElement (e.g. `<div id="banner">`). Also aShot enables you to compare 2 images and know how much different they are. This Katalon Studio project uses aShot. This project provides a set of Custom Keywords in Katalon Studio, which wrap the [aShot API](http://automationtesting.in/ashot/). Also the project provides 2 example Test Cases in Katalon Studio which shows how to make use of the keywords.
 
 You will realize another problem. If you take screen shots, you would inevitably want to save images into files on your local disk. But how you manage the paths of generated files? It is a cumbersome problem. My [Materials](https://github.com/kazurayam/Materials) project provides a smart solution for managing & resolving paths of image files dynamically created by test cases on Katalon Studio.
 
@@ -38,9 +38,9 @@ The demo will open [Mandelbrot Explorer](https://www.mandel.org.uk/) and verify 
 
 ### How to run the demo
 
-1. download the ZIP file of this demo project from the [releases] Page
+1. download the ZIP file of this demo project from the [releases](https://github.com/kazurayam/TestingSlideshowInKatalonStudio/releases) Page
 2. unzip it
-3. start your Katalon Studio, open the project
+3. start your Katalon Studio, open the `TestingSlideshowInKatalonStudio` project
 4. Open `Test Cases/verify-slideshow-example` and run it. You can choose any browser.
 5. Or you open `Test Suites/TS1` and run it. You can choose any browser. You apply the `default` Profile, which is the sole profile provided.  
 
@@ -88,8 +88,8 @@ The image files are just the same as the files created by the test case `verify-
 
 Custom keywords:
 
-- [`com.kazurayam.ksbackyard.ScreenshotDriver](Keywords/com/kazurayam/ksbackyard/ScreenshotDriver.groovy)
-- [`com.kazurayam.ksbackyard.Assert`](Test%20Listeners/TL.groovy)
+- [`com.kazurayam.ksbackyard.ScreenshotDriver`](Keywords/com/kazurayam/ksbackyard/ScreenshotDriver.groovy)
+- [`com.kazurayam.ksbackyard.Assert`](Keywords/com/kazurayam/ksbackyard/Assert.groovy)
 
 Test Listener
 
