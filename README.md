@@ -52,7 +52,7 @@ Running the `Test Cases/vefiry-slideshow-example` will result a new folder under
 ![tmp/slideshow folder](docs/images/screenshots_in_tmp_slideshow.png)
 
 In the folder you will find 4 screenshots of the original images. These are taken with 6 seconds of interval.
-- ![`Mandelbrot Explorer_0.png`](docs/images/slideshow/Mandelbrot Explorer_0.png)
+- ![`Mandelbrot Explorer_0.png`](docs/images/slideshow/Mandelbrot%20Explorer_0.png)
 - ![`Mandelbrot Explorer_1.png`](docs/images/slideshow/Mandelbrot Explorer_1.png)
 - ![`Mandelbrot Explorer_2.png`](docs/images/slideshow/Mandelbrot Explorer_2.png)
 - ![`Mandelbrot Explorer_3.png`](docs/images/slideshow/Mandelbrot Explorer_3.png)
