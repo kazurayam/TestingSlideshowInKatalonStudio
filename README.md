@@ -97,7 +97,7 @@ Test Listener
 
 Test Case:
 
-- [`Test Cases/verify-slideshow-example`](Scripts/verify-slideshow-example/Scirpt1539662348280.groovy)
+- [`Test Cases/verify-slideshow-example`](Scripts/verify-slideshow-example/Scirpt1539662348280.groovy) --- I have written as many comments as I could. Please read the source.
 - [`Test Cases/main/verifySlideshow`](Scripts/main/verifySlideshow/Script1539664567499.groovy)
 
 ## Step by step instruction to recreate your slide show test
@@ -109,7 +109,9 @@ If you want to create a new Katalon Studio project which verifies a slideshow on
 3. import the jar file of Materials. The jar file is donwloadable at [Releases](https://github.com/kazurayam/Materials/releases) page. Or you can reuse the Materials-x.x.x.jar bundled in the demo project's `./Drivers` folder.
 4. create [`com.kazurayam.ksbackyard.Assert`](Test%20Listeners/TL.groovy) and [`com.kazurayam.ksbackyard.ScreenshotDriver`](Keywords/com/kazurayam/ksbackyard/ScreenshotDriver.groovy). Copy the Groovy source from the demo project into your replication. You do not have to modify the source of 2 keywords. ![Keywords](docs/images/Keywords.PNG)
 5. create [`Test Listeners/TL`](Test%20Listeners/TL.groovy). Copy the Groovy source from the demo project into your replication. You do not have to modify the source.
-6. modify the `default` Profile to have 2 GlobalVarials: `MATERIAL_REPOSITORY` of type Null, `CURRENT_TESTCASE_ID` of type String.  ![GlobalVariables_default](docs/images/slideshow/GlobalVariables_default.PNG)
+6. modify the `default` Profile to have 2 GlobalVarials: `MATERIAL_REPOSITORY` of type Null, `CURRENT_TESTCASE_ID` of type String. No inital value required. The Test Listener `TL` will resolve appropriate values runtime.  ![GlobalVariables_default](docs/images/GlobalVariables_default.PNG)
+7. Finally you need to develop test cases and test suites. Create a mimic of [`Test Cases/verify-slideshow-example`](Scripts/verify-slideshow-example/Scirpt1539662348280.groovy) and modify it as you would like.
+
 
 
 
