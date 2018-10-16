@@ -19,14 +19,14 @@ Many web sites have slide show in the top page. For example, have a look at this
 
 I want to verify *if a slide show is in motion*. In other words,
 
-1. I want to take screenshots of each comprising images of a slide show, and save them into file
+1. I want to take screenshots of each comprising images in slideshow, and save them into file
 2. I want to compare pairs of sibling images (img0, img1), (img1, img2), (img2, img3) and (img3, img0) to find out if each pairing images are different or not.
-3. I want to specify a criteria number in pecentage (e.g. 70.0%). If a pair of images have larger difference (e.g. 99.0%) then we judge that the pair is different, otherwise we judge the pair is not different enough.
+3. I want to specify a criteria number in pecentage (e.g. 70.0%). If a pair of images has larger difference (e.g. 99.0%) than the criteria, we judge that the pair is different, otherwise the pair is not different.
 4. If I could find all of the image pairs: (img0, img1), (img1, img2), (img2, img3) and (img3, img0) are different, then I would conclude that the slide show is actually in motion.
 
 ## Solution proposed
 
-[aShot](https://github.com/yandex-qatools/ashot), WebDriver Screenshot utility, enables you to take a screenshot of a selected WebElement (e.g. `<div id="banner">`). Also aShot enables you to compare 2 images of the WebElement and let you know how much different they are. This Katalon Studio project uses aShot. It provides a set of Custom Keywords in Katalon Studio, which wrap the [aShot](https://github.com/yandex-qatools/ashot) API. Also the project provides an example Test Case which shows how to make use of the keywords.
+[aShot](https://github.com/yandex-qatools/ashot), WebDriver Screenshot utility, enables you to take a screenshot of a selected WebElement (e.g. `<div id="banner">`). Also aShot enables you to compare 2 images and know how much different they are. This Katalon Studio project uses aShot. This project provides a set of Custom Keywords in Katalon Studio, which wrap the [aShot API](http://automationtesting.in/ashot/). Also the project provides an example Test Case which shows how to make use of the keywords.
 
 You will realize another problem. If you take screen shots, you would inevitably want to save images into files on your local disk. But how you manage the paths of generated files? It is a cumbersome problem. My [Materials](https://github.com/kazurayam/Materials) project provides a smart solution for managing & resolving paths of image files dynamically created by test cases on Katalon Studio.
 
