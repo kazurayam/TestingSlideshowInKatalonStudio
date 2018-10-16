@@ -15,7 +15,7 @@ This project was developed to propose solutions to the following discussion post
 
 ## Problems to solve
 
-Many web sites have slide show in the top page. For example, have a look at this beautiful site: [Mandelbrot Explorer](https://www.mandel.org.uk/). A slide show displays a fixed number of images switched circularly with a fixed intervals in seconds.
+Many web sites have slide show in the top page. For example, have a look at this beautiful site: [Mandelbrot Explorer](https://www.mandel.org.uk/). A slide show displays a fixed number of images switched circularly with a fixed interval of some seconds.
 
 I want to verify *if a slide show is in motion*. In other words,
 
